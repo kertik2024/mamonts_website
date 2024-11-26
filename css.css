@@ -1,0 +1,552 @@
+
+
+h1{
+    font-style: italic;
+}
+p{
+    font-size: 24px;
+}
+h1{
+    font-size: 36px;
+}
+ul{
+    font-size: 18px;
+}
+ol{
+    font-size: 18px;
+}
+h1{
+    font-family: unset;
+}
+ol{
+    line-height: 1.9em;
+}
+ul{
+    line-height: 1.4em;
+}
+
+
+li{
+    font-style: italic;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+h2{
+    
+    text-align:center;
+    text-transform: uppercase;
+}
+
+div{
+   
+
+}
+
+
+
+
+
+
+td{
+    border: 3px solid #111;
+    text-align: center;
+}
+td:nth-child(1){
+    color: blueviolet;
+}
+td:nth-child(2){
+    color: rgb(231, 113, 172);
+}
+td:nth-child(3){
+    color: rgb(44, 111, 236);
+}
+th:nth-child(1){
+    color: blueviolet;
+}
+th:nth-child(2){
+    color: rgb(231, 113, 172);
+}
+th:nth-child(3){
+    color: rgb(44, 111, 236);
+}
+
+
+
+
+
+.top{
+    list-style-image: url(тарелка.png);
+}
+.top li{
+    margin: 10px 0px 0px 0px;
+}
+.qq{
+    height: 350px;
+    width: 300px; 
+    border: 3px dotted #960000;
+    text-align: center;
+}
+
+
+
+
+
+
+tr:hover{
+    background-color: rgb(202, 175, 236);
+}
+tr:nth-child(2):hover{
+    background-color: rgb(236, 175, 216);
+}
+tr:nth-child(3):hover{
+    background-color: rgb(175, 186, 236);
+}
+
+
+
+
+legend{
+    color: rgb(46, 6, 192);
+}
+.ww{
+    color: rgb(219, 131, 215);
+}
+.w{
+    color: rgb(219, 131, 215);
+}
+.wwww{
+    color: rgb(219, 131, 215);
+}
+.wwwww{
+    color: rgb(219, 131, 215);
+}
+input{
+    color: rgb(0, 0, 0);
+    border: 1px soid #3d3c3c;
+    padding: 5px 5px 5px 5px;
+    background-color: #d6d4d4;
+    border-radius: 5px;
+}
+fieldset{
+    text-align: center;
+    height: 350px;
+    width: 300px; 
+}
+
+
+
+
+
+.to{
+    color: #000;
+
+}
+.do{
+    color: black;
+}
+
+
+.rt{
+    margin-left: 600px;
+    text-align: center;
+     width: 150px;
+    border: 3px solid #111;
+}
+.yy{
+    position: fixed;
+    margin-top: 200px;
+}
+
+.main{
+    margin-left: 260px; 
+}
+
+
+.y:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.t1:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.t2:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.i:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.ta:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.s:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.f1:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.f2:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.d:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+.m:hover{
+    transform: scale(1.15);
+    background-color: rgb(174, 226, 194);
+}
+
+
+
+
+
+
+
+                                                                МУЛЬТИК
+
+
+
+
+
+
+
+
+.canvas{
+    position: relative;
+    width: 500px;
+    height: 380px;
+    margin: 80px 0 0 0;
+    transition: .3s ease;
+    perspective: 800px;
+}
+.box_front{
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 380px;
+    animation: sky 100s infinite;
+    background: skyblue;
+    box-shadow: 0 -400px 300px -300px steelblue inset;
+}
+@keyframes sky{
+    0%, 25%, 100% {
+        background: skyblue;
+        box-shadow: 0 -400px 300px -300px steelblue inset;
+    }
+    50% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px orangered inset;   
+    }
+    70%{
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px transparent inset;     
+    }
+}
+.sea{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    opacity: .8;
+    background: #068add;
+}
+.sea::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    content: '';
+    background: #105b8a;
+}
+.ship{
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    width: 100px;
+    height: 36px;
+    animation: ship 60s linear infinite;
+}
+.ship::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 20px;
+    content: '';
+    border-radius: 0 0 0 20px;
+    background: #eb8ab7;
+}.ship::before{
+ position: absolute;
+top: 0;
+left: 10px;
+width: 65px;
+height: 16px;
+content: '';
+border-radius:20px  0 0 0;
+background: #fff;
+}
+@keyframes ship{
+    0%, 5% {
+    right: -100px;
+}
+92%, 100% {
+    right: 500px;
+}
+}
+.ship_smokestack{
+    position: absolute;
+    bottom: 36px;
+    left: 45px;
+    height: 17px;
+    width: 10px;
+    background: #c2b56a; 
+}
+.ship_window{
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    width: 7px;
+    height: 7px;
+    border-radius:50%;
+    background: #c2b56a; 
+    box-shadow: 13px 0 0 0 #c2b56a, -13px 0 0 0 #c2b56a;
+}
+.smoke div{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius:50%;
+    background: #f3f2ec; 
+}
+.smoke-1{
+    top:-25px ;
+    right:44px ;
+    animation: smoke 1.5s ease-out 0,5s infinite;
+}
+.smoke-2{
+    top:-25px ;
+    right:42px ;
+    animation: smoke 1.5s ease-out 1s infinite;
+}
+.smoke-3{
+    top:-25px ;
+    right:49px ;
+    animation: smoke 1.5s ease-out infinite;
+}
+@keyframes smoke{
+    to{
+        top: -50px;
+        transform: scale(3);
+        opacity: 0;
+    }
+}
+.sun{
+    position: absolute;
+    top:30px;
+    right: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background: #fde405; 
+    box-shadow:0 0 100px #fda605;   
+    animation: sun 10s linear infinite;
+}
+.sun-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom center;
+    animation: sun 100s linear -77s infinite;
+}
+@keyframes sun{
+    to{
+        transform: rotate(1turn);
+    }
+}
+.sun div{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    width: 2px;
+    height: 100px;
+    margin-left: -1px;
+    border: solid  #fde405 ;
+    border-width: 10px 0 10px 0;
+}
+.sun div:nth-child(2){
+    transform: rotate(18deg);
+}
+.sun div:nth-child(3){
+    transform: rotate(36deg);
+}
+.sun div:nth-child(4){
+    transform: rotate(54deg);
+}
+.sun div:nth-child(5){
+    transform: rotate(72deg);
+}
+.sun div:nth-child(6){
+    transform: rotate(90deg);
+}
+.sun div:nth-child(7){
+    transform: rotate(-18deg);
+}
+.sun div:nth-child(8){
+    transform: rotate(-36deg);
+}
+.sun div:nth-child(9){
+    transform: rotate(-54deg);
+}
+.sun div:nth-child(10){
+    transform: rotate(-72deg);
+}
+.cloud{
+    position: absolute;
+    left:-180px ;
+    width: 200px;
+    height: 60px;
+    opacity: .8;
+    border-radius:200px;
+    background:#fff; 
+}
+.cloud :before,
+.cloud :after{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    width: 100px;
+    height: 80px;
+    content: '';
+    border-radius:100px;
+    background: #fff; 
+}
+.cloud:after{
+    top: -55px;
+    right: 15px;
+    left: auto;
+    width: 120px;
+    height: 120px;
+}
+.cloud-1{
+    top: 10px;
+    transform: scale(0.3);
+    animation:clouds 67s linear -32s infinite ;
+}
+.cloud-2{
+    top: 50px;
+    transform: rotateY(180deg) scale(0.4);
+    animation:clouds 40s linear 4s infinite ;
+}
+.cloud-3{
+    top: 100px;
+    transform: scale(0.5);
+    animation:clouds 27s linear -19s infinite ;
+}
+.cloud-2{
+    top: 170px;
+    transform: rotateY(180deg) scale(0.6);
+    animation:clouds 20s linear infinite ;
+}
+@keyframes clouds{
+    to{
+        left: 700px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a1{
+color: hwb(199 37% 27%);
+}
+.a2{
+    color: #08569e;
+}
+.a3{
+    color: hsl(199, 39%, 55%);
+    font-size: 26px;
+}
+.b5{
+    color:#08569e; 
+}
+.картинки{
+    width: 200px;
+}
+
+.картинки img {
+    width: 100%;
+}
+.b1{
+    color: rgb(122, 92, 204);
+}
+.b2{
+    color: rgb(122, 92, 204);
+}
+.b3{
+    color: rgb(122, 92, 204);
+}
+.b4{
+    color: rgb(122, 92, 204);
+}
+.c1{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.c2{
+    width: 50px;
+}
+
+.c2 img {
+    width: 100%;
+    border-radius: 50%;
+}
+.d1{
+    color: #08569e;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right:10px ;
+}
+.d2{
+    color: #ec68a6;
+    font-size: 25px;
+    text-decoration: none;
+}
+.a9{
+    color: #ec68a6; 
+}
+.q6{
+    color: #f388ba;
+}
+.v1{
+    margin-left: 30px;
+}
+.v2{
+    margin-left: 35px;
+}
